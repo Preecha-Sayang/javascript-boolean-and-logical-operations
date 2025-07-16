@@ -17,7 +17,7 @@ isPlatinum = false;
 
 hasPromotion = false;
 
-if(lastMonthPaidMoreThan4000 && isWeekday && !hasBoughtProductFromITCategory && !hasAttendedDiscountEvent){
+if((lastMonthPaidMoreThan4000 && isWeekday && !hasBoughtProductFromITCategory && !hasAttendedDiscountEvent) || isPlatinum){
     hasPromotion = true;
 }
 
